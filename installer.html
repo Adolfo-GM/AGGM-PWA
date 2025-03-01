@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-startup-image" href="logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="logo.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1a1a2e">
+<link rel="icon" sizes="192x192" href="logo.png">
+<link rel="manifest" href="/manifest.json">
+<meta property="og:image" content="logo.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<title>Save App</title>
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: #1a1a2e;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    text-align: center;
+    color: #00b4d8;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.platform {
+    margin: 20px 0;
+}
+h2 {
+    color: #90e0ef;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.step {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    background: #252540;
+    border-radius: 10px;
+}
+.material-symbols-outlined {
+    font-size: 24px;
+    color: #00b4d8;
+    margin-right: 10px;
+}
+p {
+    font-size: 16px;
+    margin: 0;
+}
+.highlight {
+    color: #00b4d8;
+    font-weight: 600;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Install In Your Phone</h1>
+    <div class="platform">
+        <h2>iPhone (Safari)</h2>
+        <div class="step">
+            <span class="material-symbols-outlined">ios_share</span>
+            <p>Tap <span class="highlight">Share</span></p>
+        </div>
+        <div class="step">
+            <p>Select <span class="highlight">Add to Home Screen</span></p>
+        </div>
+    </div>
+    <div class="platform">
+        <h2>Android (Chrome)</h2>
+        <div class="step">
+            <span class="material-symbols-outlined">more_vert</span>
+            <p>Tap <span class="highlight">Menu</span> (3 dots)</p>
+        </div>
+        <div class="step">
+            <p>Select <span class="highlight">Add to Home screen</span></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
