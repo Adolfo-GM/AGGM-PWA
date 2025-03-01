@@ -15,3 +15,6 @@ Aggm PWA has the following files:
 - ``` notifications.js ``` : This allows you to send notifications to the user.
 - ``` service-worker.js ``` : This allows the PWA to work offline.
 - ``` manifest.json ``` : This configures some parts of the PWA.
+- ``` index.html  ``` : This is the main html file.
+- ``` style.css ``` : This is the main css file.
+- ``` script.js ``` : This is the main JS file.
