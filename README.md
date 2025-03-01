@@ -3,5 +3,7 @@
 # AGGM-PWA
 A template for building Progressive Web Apps.
 
-<img src="index.png" height="150">
-<img src="install.png" height="150">
+<div display="flex" flex-direction="column">
+  <img src="index.png" height="350">
+  <img src="install.png" height="350">
+</div>
